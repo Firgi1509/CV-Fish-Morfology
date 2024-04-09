@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Mulut', 'Sirip Anal', 'Sirip Dada', 'Sirip Ekor', 'Sirip Perut', 'Sirip Punggung']
+
+roboflow:
+  workspace: morfologi-ikan
+  project: morfologi-ikan
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/morfologi-ikan/morfologi-ikan/dataset/1
