@@ -1,9 +1,16 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+path: ../https://github.com/Firgi1509/CV-Fish-Morfology.git
+train: train/images
+val: valid/images
+test: test/images
 
-nc: 6
-names: ['Mulut', 'Sirip Anal', 'Sirip Dada', 'Sirip Ekor', 'Sirip Perut', 'Sirip Punggung']
+names:
+  0: Mulut
+  1: Sirip Anal
+  2: Sirip Dada
+  3: Sirip Ekor
+  4: Sirip Perut
+  5: Sirip Punggung
+  
 
 roboflow:
   workspace: morfologi-ikan
