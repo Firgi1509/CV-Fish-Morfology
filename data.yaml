@@ -1,4 +1,4 @@
-path: ../https://github.com/Firgi1509/CV-Fish-Morfology.git
+path: ../content/yolov5/CV-Fish-Morfology
 train: train/images
 val: valid/images
 test: test/images
